@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/studioweb-react/static/css/main.3d3b92fc.css",
+    "main.js": "/studioweb-react/static/js/main.b39c4df0.js",
+    "static/media/bgg.jpg": "/studioweb-react/static/media/bgg.5268cd9ffe6dd78dd2e3.jpg",
+    "static/media/decor2.png": "/studioweb-react/static/media/decor2.4036ee564036962542a2.png",
+    "static/media/decor1.png": "/studioweb-react/static/media/decor1.c239cfa39298f8d55093.png",
+    "static/media/Ruberoid-SemiBold.woff": "/studioweb-react/static/media/Ruberoid-SemiBold.c85ab287f475154fd650.woff",
+    "static/media/Ruberoid-Bold.woff": "/studioweb-react/static/media/Ruberoid-Bold.c56a9bc2c9f90837e933.woff",
+    "static/media/Ruberoid-ExtraBold.woff": "/studioweb-react/static/media/Ruberoid-ExtraBold.293333ac3caa491459b3.woff",
+    "static/media/Ruberoid-Regular.woff": "/studioweb-react/static/media/Ruberoid-Regular.d28c5a9a2fe714064a39.woff",
+    "static/media/Ruberoid-Medium.woff": "/studioweb-react/static/media/Ruberoid-Medium.8f334d7df1711d688b0c.woff",
+    "static/media/Ruberoid-SemiBold.woff2": "/studioweb-react/static/media/Ruberoid-SemiBold.eb22f758ae40044785ab.woff2",
+    "static/media/Ruberoid-Bold.woff2": "/studioweb-react/static/media/Ruberoid-Bold.4427a88bfb5d5fcc9a6e.woff2",
+    "static/media/Ruberoid-Regular.woff2": "/studioweb-react/static/media/Ruberoid-Regular.aeaf80fb27a71009fe78.woff2",
+    "static/media/Ruberoid-ExtraBold.woff2": "/studioweb-react/static/media/Ruberoid-ExtraBold.f95cb2592208e555147d.woff2",
+    "static/media/Ruberoid-Medium.woff2": "/studioweb-react/static/media/Ruberoid-Medium.e97acc2b65b57a6cf911.woff2",
+    "static/media/slick.svg": "/studioweb-react/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/studioweb-react/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/studioweb-react/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/studioweb-react/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/decor-star-left.svg": "/studioweb-react/static/media/decor-star-left.7ebdd4c96faf321d5cd2.svg",
+    "static/media/decor-star-right.svg": "/studioweb-react/static/media/decor-star-right.6eb6de497a84a3ba127a.svg",
+    "index.html": "/studioweb-react/index.html",
+    "static/media/line4.svg": "/studioweb-react/static/media/line4.497236039bdc79a4e1ce.svg",
+    "static/media/line3.svg": "/studioweb-react/static/media/line3.76d193eb864efab30ed1.svg",
+    "static/media/line1-2.svg": "/studioweb-react/static/media/line1-2.1488da031493955f8de0.svg",
+    "static/media/arrow-slider-btn-left.svg": "/studioweb-react/static/media/arrow-slider-btn-left.d27197efed15e80871a7.svg",
+    "static/media/arrow-slider-btn-right.svg": "/studioweb-react/static/media/arrow-slider-btn-right.dd718de5e59e67e077c3.svg",
+    "main.3d3b92fc.css.map": "/studioweb-react/static/css/main.3d3b92fc.css.map",
+    "main.b39c4df0.js.map": "/studioweb-react/static/js/main.b39c4df0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d3b92fc.css",
+    "static/js/main.b39c4df0.js"
+  ]
+}
