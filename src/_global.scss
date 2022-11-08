@@ -164,11 +164,29 @@ body {
     top: 43%;
 }
 
+#fp-nav.fp-left {
+    left: 164px !important;
+}
+
+
 #fp-nav ul,
 .fp-slidesNav ul {
     margin: 0;
     padding: 0;
     height: 100%;
+}
+
+#fp-nav ul li,
+.fp-slidesNav ul li {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    position: relative !important;
+    border: 1.5px solid #597872 !important;
+    border-radius: 20px !important;
+    width: 26px !important;
+    height: 45px !important;
+    margin: 30px 0px !important;
 }
 
 #fp-nav ul li::before,
