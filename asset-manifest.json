@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/studioweb-react/static/css/main.4ec357f8.css",
+    "main.css": "/studioweb-react/static/css/main.a5969ab3.css",
     "main.js": "/studioweb-react/static/js/main.92ab826e.js",
     "static/media/bgg.jpg": "/studioweb-react/static/media/bgg.5268cd9ffe6dd78dd2e3.jpg",
     "static/media/decor2.png": "/studioweb-react/static/media/decor2.4036ee564036962542a2.png",
@@ -27,11 +27,11 @@
     "static/media/line1-2.svg": "/studioweb-react/static/media/line1-2.1488da031493955f8de0.svg",
     "static/media/arrow-slider-btn-left.svg": "/studioweb-react/static/media/arrow-slider-btn-left.d27197efed15e80871a7.svg",
     "static/media/arrow-slider-btn-right.svg": "/studioweb-react/static/media/arrow-slider-btn-right.dd718de5e59e67e077c3.svg",
-    "main.4ec357f8.css.map": "/studioweb-react/static/css/main.4ec357f8.css.map",
+    "main.a5969ab3.css.map": "/studioweb-react/static/css/main.a5969ab3.css.map",
     "main.92ab826e.js.map": "/studioweb-react/static/js/main.92ab826e.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ec357f8.css",
+    "static/css/main.a5969ab3.css",
     "static/js/main.92ab826e.js"
   ]
 }
