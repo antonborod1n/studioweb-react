@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/studioweb-react/static/css/main.3d3b92fc.css",
-    "main.js": "/studioweb-react/static/js/main.b39c4df0.js",
+    "main.css": "/studioweb-react/static/css/main.85c439b6.css",
+    "main.js": "/studioweb-react/static/js/main.92ab826e.js",
     "static/media/bgg.jpg": "/studioweb-react/static/media/bgg.5268cd9ffe6dd78dd2e3.jpg",
     "static/media/decor2.png": "/studioweb-react/static/media/decor2.4036ee564036962542a2.png",
     "static/media/decor1.png": "/studioweb-react/static/media/decor1.c239cfa39298f8d55093.png",
@@ -27,11 +27,11 @@
     "static/media/line1-2.svg": "/studioweb-react/static/media/line1-2.1488da031493955f8de0.svg",
     "static/media/arrow-slider-btn-left.svg": "/studioweb-react/static/media/arrow-slider-btn-left.d27197efed15e80871a7.svg",
     "static/media/arrow-slider-btn-right.svg": "/studioweb-react/static/media/arrow-slider-btn-right.dd718de5e59e67e077c3.svg",
-    "main.3d3b92fc.css.map": "/studioweb-react/static/css/main.3d3b92fc.css.map",
-    "main.b39c4df0.js.map": "/studioweb-react/static/js/main.b39c4df0.js.map"
+    "main.85c439b6.css.map": "/studioweb-react/static/css/main.85c439b6.css.map",
+    "main.92ab826e.js.map": "/studioweb-react/static/js/main.92ab826e.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d3b92fc.css",
-    "static/js/main.b39c4df0.js"
+    "static/css/main.85c439b6.css",
+    "static/js/main.92ab826e.js"
   ]
 }
