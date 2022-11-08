@@ -45,6 +45,31 @@ body {
     flex-grow: 1;
 }
 
+.btn {
+    font-family: 'Ruberoid Semi';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    background: rgba(46, 236, 197, 0.1);
+    border: 1.5px solid #2EECC5;
+    border-radius: 49px;
+    cursor: pointer;
+    box-shadow: 0px 0px 21px rgba(46, 236, 197, 0.15);
+}
+
+.section__title {
+    font-family: 'Ruberoid';
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 110.6%;
+    background: linear-gradient(91.2deg, #B5FEEF 10.31%, #2EECC5 165.09%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: 0px 0px 36px rgba(165, 252, 235, 0.2);
+}
+
 .swiper {
     padding-bottom: 5px;
 }
@@ -90,7 +115,7 @@ body {
 
 .swiper-button-next::after,
 .slick-arrow.slick-next:before {
-    content: url(../public/images//arrow-slider-btn-right.svg);
+    content: url(../public/images/arrow-slider-btn-right.svg);
     transform: translateY(-8%);
 }
 
@@ -139,34 +164,11 @@ body {
     top: 43%;
 }
 
-#fp-nav.fp-left {
-    left: 164px;
-}
-
-.fp-is-overflow .fp-overflow.fp-auto-height,
-.fp-is-overflow .fp-overflow.fp-auto-height-responsive,
-.fp-is-overflow>.fp-overflow {
-    overflow-y: visible;
-}
-
 #fp-nav ul,
 .fp-slidesNav ul {
     margin: 0;
     padding: 0;
     height: 100%;
-}
-
-#fp-nav ul li,
-.fp-slidesNav ul li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    border: 1.5px solid #597872;
-    border-radius: 20px;
-    width: 26px;
-    height: 45px;
-    margin: 30px 0px;
 }
 
 #fp-nav ul li::before,
@@ -294,14 +296,14 @@ body {
 
 .footer__title {
     &::after {
-        content: url(./assets/images/decor-star-right.svg);
+        content: url(../public/images/decor-star-right.svg);
         position: relative;
         top: -55px;
         left: 0;
     }
 
     &::before {
-        content: url(./assets/images/decor-star-left.svg);
+        content: url(../public/images/decor-star-left.svg);
         position: relative;
         top: 65px;
         left: 0;
