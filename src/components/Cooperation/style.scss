@@ -1,0 +1,123 @@
+.cooperation {
+    &__title {
+        max-width: 680px;
+        margin-bottom: 13px;
+    }
+
+    &__text {
+        font-family: 'Ruberoid';
+        font-weight: 500;
+        max-width: 680px;
+        margin-bottom: 13px;
+    }
+
+    &__inner {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 35px;
+        grid-row-gap: 32px;
+    }
+
+    &__item {
+        position: relative;
+        width: 400px;
+        height: 400px;
+        background: linear-gradient(139.56deg, #303134 10.06%, #282828 53.72%, #282828 88%);
+        box-shadow: 0px 0px 80px rgba(44, 44, 45, 0.35);
+        border-radius: 6px;
+        padding: 44px 37px;
+        overflow: hidden;
+        transition: all .3s;
+
+        &-info {
+            grid-area: 1 / 1 / 2 / 3;
+            padding-top: 30px;
+        }
+
+        &-second {
+            grid-area: 2 / 1 / 3 / 2;
+        }
+
+        &-third {
+            grid-area: 2 / 2 / 3 / 3;
+        }
+
+        &-fourth {
+            grid-area: 2 / 3 / 3 / 4;
+        }
+
+        &:hover {
+            cursor: pointer;
+            transition: all .3s;
+            background: linear-gradient(139.56deg, #527791 10.06%, #325597 53.72%, #193895 88%);
+            box-shadow: 0px 0px 150px rgba(59, 95, 150, 0.35);
+        }
+
+        &-icon {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            right: 0;
+            bottom: -10px;
+        }
+
+
+        &-title {
+            font-family: 'Ruberoid Semi';
+            font-weight: 600;
+            max-width: 270px;
+            font-size: 26px;
+            line-height: 123.1%;
+            color: #FFFFFF;
+            margin-bottom: 20px;
+        }
+
+        &-text {
+            font-family: 'Ruberoid';
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 123.1%;
+            color: rgba(255, 255, 255, 0.9);
+        }
+    }
+
+    &__btn {
+        font-family: 'Ruberoid Semi';
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+        color: #FFFFFF;
+        border: 1.5px solid #2EECC5;
+        cursor: pointer;
+        width: 200px;
+        height: 57px;
+        background: #161617;
+        box-shadow: 0px 0px 38px rgba(46, 236, 197, 0.2);
+        border-radius: 4px;
+        margin-top: 31px;
+        position: relative;
+
+        &::after {
+            display: block;
+            content: '';
+            position: absolute;
+            top: -2px;
+            right: -1px;
+            z-index: -1;
+            width: 200px;
+            height: 57px;
+            border: 1.5px solid rgba(46, 236, 197, 0.4);
+            border-radius: 4px;
+        }
+
+        &:hover::after {
+            transform: translate(10px, 10px);
+            transition: all .5s;
+        }
+    }
+}
+
+div.cooperation__item-first {
+    grid-area: 1 / 3 / 2 / 4;
+}

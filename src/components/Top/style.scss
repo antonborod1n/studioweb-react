@@ -1,0 +1,73 @@
+.top {
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__content {
+        padding-left: 250px;
+        padding-top: 185px;
+    }
+
+    &__bottom {
+        display: none;
+    }
+
+    &__img {
+        max-width: 100%;
+    }
+
+    &__title {
+        max-width: 870px;
+        font-family: 'Ruberoid Extra';
+        font-weight: 800;
+        font-size: 65px;
+        line-height: 62px;
+        background: linear-gradient(91.2deg, #B5FEEF 10.31%, #2EECC5 165.09%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        margin-bottom: 33px;
+        text-transform: uppercase;
+
+        & span {
+            font-family: 'Ruberoid Extra';
+            font-weight: 800;
+            font-size: 45px;
+            line-height: 62px;
+        }
+    }
+
+    &__text {
+        font-weight: 400;
+        max-width: 680px;
+        font-size: 22px;
+        line-height: 30px;
+        color: rgba(255, 255, 255, 0.65);
+        margin-bottom: 50px;
+    }
+
+    &__btn {
+        position: relative;
+        width: 200px;
+        height: 57px;
+        box-shadow: 0px 0px 38px rgba(46, 236, 197, 0.2);
+        border-radius: 41px;
+        margin-right: 25px;
+        padding-right: 25px;
+
+        &-arrow {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 15px;
+            height: 15px;
+        }
+    }
+
+    &__link {
+        font-size: 19px;
+        line-height: 25px;
+        color: rgba(255, 255, 255, 0.4);
+    }
+}

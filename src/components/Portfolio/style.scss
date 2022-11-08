@@ -1,0 +1,46 @@
+.portfolio {
+    &__inner {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    &__info {
+        max-width: 530px;
+        margin: 0 125px 0 auto;
+    }
+
+    &__title {
+        margin-bottom: 18px;
+    }
+
+    &__text {
+        font-family: 'Ruberoid';
+        font-weight: 500;
+        margin-bottom: 41px;
+    }
+
+    &__btn {
+        width: 269px;
+        height: 51px;
+    }
+
+    &__slider {
+        max-width: 925px;
+
+        &-item {
+            max-width: 565px;
+            max-height: 363px;
+            margin-right: 102px;
+            background: linear-gradient(165.96deg, #19201F 16.33%, #323939 90%);
+            border: 1.5px solid rgba(46, 236, 197, 0.5);
+            box-shadow: 0px 0px 16px rgba(46, 236, 197, 0.1);
+            border-radius: 5px;
+        }
+
+        &-img {
+            border-radius: 5px;
+            object-fit: cover;
+        }
+    }
+}
