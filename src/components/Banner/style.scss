@@ -21,8 +21,10 @@
         width: 213px;
         background: rgba(255, 255, 255, 0.1);
         backdrop-filter: blur(15px);
-        border-radius: 29px;
+        border-radius: 40px;
         padding: 8px;
+        border: 1px solid;
+        border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
 
         &-left {
             top: 75px;
@@ -39,14 +41,18 @@
         }
 
         &-title {
-            font-size: 14px;
-            line-height: 19px;
+            font-family: 'Ruberoid ExtraLight';
+            font-weight: 200;
+            font-size: 12px;
+            line-height: 15px;
             color: rgba(255, 255, 255, 0.9);
             margin-bottom: 5px;
         }
 
         &-text {
-            font-size: 12px;
+            font-family: 'Ruberoid ExtraLight';
+            font-weight: 200;
+            font-size: 11px;
             line-height: 105.6%;
             color: rgba(255, 255, 255, 0.7);
         }
@@ -76,6 +82,4 @@
             }
         }
     }
-
-
 }

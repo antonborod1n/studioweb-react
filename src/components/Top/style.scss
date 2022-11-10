@@ -13,10 +13,6 @@
         display: none;
     }
 
-    &__img {
-        max-width: 100%;
-    }
-
     &__title {
         max-width: 870px;
         font-family: 'Ruberoid Extra';
@@ -48,13 +44,24 @@
     }
 
     &__btn {
-        position: relative;
+        font-family: 'Ruberoid';
         width: 200px;
         height: 57px;
+        background: rgba(46, 236, 197, 0.1);
+        border: 1.5px solid #2EECC5;
         box-shadow: 0px 0px 38px rgba(46, 236, 197, 0.2);
         border-radius: 41px;
+        position: relative;
         margin-right: 25px;
         padding-right: 25px;
+        color: #FFFFFF;
+        cursor: pointer;
+
+        &:hover {
+            transition: all .3s;
+            background: lighten($color: rgba(46, 236, 197, 0.1), $amount: 10%);
+            filter: drop-shadow(0px 0px 20px rgba(46, 236, 197, 0.45));
+        }
 
         &-arrow {
             position: absolute;
@@ -66,8 +73,19 @@
     }
 
     &__link {
+        font-family: 'Ruberoid';
+        font-weight: 400;
         font-size: 19px;
         line-height: 25px;
         color: rgba(255, 255, 255, 0.4);
+
+        &:hover {
+            transition: all .3s;
+            color: darken($color: rgba(255, 255, 255, 0.4), $amount: 10%);
+        }
+    }
+
+    &__img-box {
+        overflow: hidden;
     }
 }

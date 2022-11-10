@@ -1,5 +1,6 @@
 .menu {
     padding-bottom: 65px;
+    margin: 0px 90px 0px auto;
 
     &__list {
         display: flex;
@@ -15,8 +16,9 @@
         }
 
         &-link {
-            font-weight: 600;
-            font-size: 20px;
+            font-family: 'Ruberoid';
+            font-weight: 400;
+            font-size: 19px;
             line-height: 27px;
             color: #FFFFFF;
 

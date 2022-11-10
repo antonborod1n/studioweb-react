@@ -24,8 +24,8 @@ const Banner = () => {
                                 <img className="banner__massage-icon" src="./images/world-icon.svg" alt="Phone" />
                             </div>
                             <div className="banner__massage-box">
-                                <div className="banner__massage-title">Уведомление!</div>
-                                <div className="banner__massage-text">В скорейшем времени вам перезвонят</div>
+                                <div className="banner__massage-title">Работа закончена!</div>
+                                <div className="banner__massage-text">Мы закончили работу над вашим сайтом</div>
                             </div>
                         </div>
                     </div>

@@ -24,14 +24,14 @@ const App = () => (
 
       return (
         <div>
-          <section className="section active first-screen page-section fp-auto-height-responsive">
+          <section className="section active first-screen page-section fp-auto-height">
             <Header />
             <Top />
           </section>
           <Cooperation />
           <Portfolio />
           <Price />
-          <section className="section bottom page-section fp-auto-height-responsive">
+          <section className="section bottom page-section fp-auto-height">
             <Banner />
             <Footer />
           </section>

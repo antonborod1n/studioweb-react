@@ -34,7 +34,7 @@ const Portfolio = () => {
     };
 
     return (
-        <section className="section page-section portfolio fp-auto-height-responsive">
+        <section className="section page-section portfolio fp-auto-height">
             <div className="portfolio__inner">
                 <div className="portfolio__info">
                     <h2 className="portfolio__title section__title">Наше портфолио</h2>
@@ -42,6 +42,9 @@ const Portfolio = () => {
                         В данном портфолио вы сможете увидеть кейсы наших работ на 2022 - 2023 год
                     </p>
                     <button className="portfolio__btn btn">Компьютерные версии</button>
+
+
+
                 </div>
                 <div className="portfolio__slider">
                     <Slider {...settings}>

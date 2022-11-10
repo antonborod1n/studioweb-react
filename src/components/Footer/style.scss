@@ -16,8 +16,6 @@
         align-items: center;
     }
 
-
-
     &__social-item {
         display: flex;
         justify-content: center;
@@ -33,20 +31,12 @@
             height: 120px;
         }
 
-        &-big+.footer__social-item-big {
-            margin-left: 80px;
-        }
-
-        &:first-child {
-            margin-right: 40px;
-        }
-
-        &:last-child {
+        &+.footer__social-item {
             margin-left: 40px;
         }
 
         &:hover {
-            transform: scale(1.4);
+            transform: scale(1.2);
             border: 1px solid rgba($color: #2EECC5, $alpha: 0.1);
             transition: all .3s;
         }

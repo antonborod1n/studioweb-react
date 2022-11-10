@@ -133,7 +133,6 @@
     .logo {
         order: 1;
         width: 69px;
-        height: 47px;
     }
 
     .header {
@@ -217,6 +216,7 @@
     }
 
     .portfolio {
+        padding-top: 0;
 
         &__slider {
             max-width: 100%;
@@ -300,6 +300,7 @@
 }
 
 @media (max-width: 768px) {
+
     .section__title {
         font-size: 30px;
         line-height: 110.6%;
@@ -426,11 +427,38 @@
     }
 
     .price {
-        padding: 0px 0px 145px 0px;
-
         &__slider-item {
             max-width: 100%;
         }
+    }
+
+    .price__slider-item {
+        height: 350px;
+    }
+
+    .swiper-slide-active .price__slider-item .price__slider-title {
+        font-size: 25px;
+        line-height: 34px;
+    }
+
+    .swiper-slide-active .price__slider-item .price__slider-text {
+        font-size: 12px;
+        line-height: 153.8%;
+    }
+
+    .swiper-slide-active .price__slider-item .price__slider-order-from {
+        font-size: 16px;
+        line-height: 153.8%;
+    }
+
+    .swiper-slide-active .price__slider-item .price__slider-order-day {
+        font-size: 13px;
+        line-height: 153.8%;
+    }
+
+    .swiper-slide-active .price__slider-item .price__slider-order-btn {
+        font-size: 12px;
+        line-height: 16px;
     }
 
     .footer {
@@ -499,6 +527,14 @@
     }
 
     .bottom__btn {
+        font-size: 11px;
+        line-height: 15px;
+        text-align: center;
+        color: #FFFFFF;
+        background: rgba(46, 236, 197, 0.04);
+        border: 1.5px solid #208C76;
+        box-shadow: 0px 0px 38px rgba(46, 236, 197, 0.1);
+        border-radius: 41px;
         width: 100%;
         padding: 12px 18px;
         margin-bottom: 20px;
@@ -530,6 +566,7 @@
     .top__img-box {
         margin-left: -120px;
     }
+
 
     .footer {
         padding: 0px;

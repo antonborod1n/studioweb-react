@@ -14,7 +14,7 @@
             flex-direction: column;
             text-align: center;
             max-width: 370px;
-            min-height: 410px;
+            height: 600px;
             background: linear-gradient(168.64deg, #313134 9.31%, #292929 61.88%, #282828 111.76%);
             border: 1px solid rgba(255, 255, 255, 0.2);
             border-radius: 36px;
@@ -65,15 +65,15 @@
             }
 
             &-btn {
-                font-family: 'Ruberoid Semi';
-                font-weight: 600;
+                font-family: 'Ruberoid ExtraLight';
+                font-weight: 200;
                 font-size: 14px;
                 line-height: 19px;
                 background: rgba(46, 236, 197, 0.1);
                 box-shadow: 0px 0px 38px rgba(46, 236, 197, 0.1);
                 border-radius: 41px;
                 position: relative;
-                padding: 10px 25px 10px 15px;
+                padding: 12px 45px 12px 25px;
                 color: rgba(255, 255, 255, 0.6);
                 border: 1.5px solid #2EECC5;
                 cursor: pointer;
@@ -83,7 +83,7 @@
         &-btn-arrow {
             position: absolute;
             top: 37%;
-            right: 8px;
+            right: 15px;
             width: 15px;
             height: 15px;
         }
@@ -117,9 +117,9 @@
     background: rgba(46, 236, 197, 0.1);
     box-shadow: 0px 0px 38px rgba(46, 236, 197, 0.1);
     border-radius: 41px;
-    padding: 10px 25px 10px 15px;
-    font-family: 'Ruberoid Semi';
-    font-weight: 600;
+    padding: 15px 35px 15px 25px;
+    font-family: 'Ruberoid ExtraLight';
+    font-weight: 200;
     font-size: 17px;
     line-height: 23px;
     color: #FFFFFF;

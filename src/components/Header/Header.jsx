@@ -10,7 +10,7 @@ const Header = () => {
                         <img className="logo__img" src="./images/logo.svg" alt="Logotip" />
                     </a>
                     <Navbar />
-                    <a className="header__btn btn" href="#banner">Заказать</a>
+                    <a className="header__btn" href="#banner">Заказать</a>
                 </div>
             </div>
         </header>

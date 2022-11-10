@@ -7,7 +7,7 @@ import "./style.scss";
 
 const Price = () => {
     return (
-        <section className="section page-section price fp-auto-height-responsive">
+        <section className="section page-section price fp-auto-height">
             <div className="container-price">
                 <div className="price__inner">
                     <h2 className="price__title section__title">Тарифы</h2>
@@ -15,7 +15,7 @@ const Price = () => {
                         <Swiper
                             effect={"coverflow"}
                             coverflowEffect={{
-                                rotate: 50,
+                                rotate: 40,
                                 stretch: 0,
                                 depth: 100,
                                 modifier: 1,
@@ -24,7 +24,7 @@ const Price = () => {
                             modules={[Navigation, A11y, EffectCoverflow]}
                             navigation
                             loop={true}
-                            autoHeight={true}
+                            /* autoHeight={true} */
                             centeredSlides={true}
                             breakpoints={{
                                 0: {
@@ -37,7 +37,7 @@ const Price = () => {
                                     spaceBetween: 27
                                 },
 
-                                992: {
+                                1030: {
                                     slidesPerView: 3,
                                     spaceBetween: 32
                                 }
