@@ -34,7 +34,7 @@ const Portfolio = () => {
     };
 
     return (
-        <section className="section page-section portfolio fp-auto-height">
+        <section className="section page-section portfolio fp-auto-height" id="portfolio">
             <div className="portfolio__inner">
                 <div className="portfolio__info">
                     <h2 className="portfolio__title section__title">Наше портфолио</h2>

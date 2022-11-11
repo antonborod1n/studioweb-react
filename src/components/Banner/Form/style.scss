@@ -2,11 +2,10 @@
     margin-top: 45px;
 
     &__title {
+        font-family: 'Montserrat-Bold';
         margin-bottom: 21px;
         font-size: 50px;
         line-height: 110.6%;
-        font-family: 'Ruberoid';
-        font-weight: 700;
         background: linear-gradient(91.2deg, #B5FEEF 10.31%, #2EECC5 165.09%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -27,9 +26,8 @@
     }
 
     &__label {
+        font-family: 'Montserrat-Medium';
         display: block;
-        font-family: 'Ruberoid';
-        font-weight: 500;
         font-size: 17px;
         line-height: 153.8%;
         color: rgba(255, 255, 255, 0.7);

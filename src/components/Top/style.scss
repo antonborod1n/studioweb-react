@@ -15,8 +15,7 @@
 
     &__title {
         max-width: 870px;
-        font-family: 'Ruberoid Extra';
-        font-weight: 800;
+        font-family: 'Montserrat-ExtraBold';
         font-size: 65px;
         line-height: 62px;
         background: linear-gradient(91.2deg, #B5FEEF 10.31%, #2EECC5 165.09%);
@@ -27,8 +26,7 @@
         text-transform: uppercase;
 
         & span {
-            font-family: 'Ruberoid Extra';
-            font-weight: 800;
+            font-family: 'Montserrat-ExtraBold';
             font-size: 45px;
             line-height: 62px;
         }
@@ -44,7 +42,6 @@
     }
 
     &__btn {
-        font-family: 'Ruberoid';
         width: 200px;
         height: 57px;
         background: rgba(46, 236, 197, 0.1);
@@ -73,8 +70,6 @@
     }
 
     &__link {
-        font-family: 'Ruberoid';
-        font-weight: 400;
         font-size: 19px;
         line-height: 25px;
         color: rgba(255, 255, 255, 0.4);

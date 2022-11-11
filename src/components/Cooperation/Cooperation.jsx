@@ -13,7 +13,7 @@ const Cooperation = () => {
                         <p className="cooperation__text">
                             Пока конкуренты говорят о том, что они лучшие - мы это доказываем делом.
                         </p>
-                        <button className="cooperation__btn">Портфолио</button>
+                        <a className="cooperation__btn" href="#portfolio">Портфолио</a>
                     </div>
                     <div className="cooperation__item cooperation__item-first">
                         <h3 className="cooperation__item-title">Приемлимые цены</h3>
