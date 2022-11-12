@@ -121,23 +121,32 @@
 
 @media (max-width: 992px) {
 
-    .burger-btn,
-    .burger-btn-close {
+    .burger-btn {
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-content: center;
         z-index: 10;
         position: relative;
+        padding: 0px;
+    }
+
+    .burger-btn-close {
+        margin-left: auto;
     }
 
     .logo {
         order: 1;
-        width: 69px;
+    }
+
+    .logo__img {
+        width: 62px;
+        height: 43px;
     }
 
     .header {
         &__inner {
             padding: 30px 0;
+            align-items: flex-start;
         }
 
         &__btn {
@@ -148,25 +157,25 @@
     .menu {
         display: block;
         padding-bottom: 0px;
-        width: 100%;
+        margin: 0px;
 
         &__list {
             position: absolute;
             top: 0;
-            right: 0;
+            right: 15px;
             z-index: 1;
             flex-direction: column;
-            width: 100%;
+            width: 97%;
             text-align: center;
             background: linear-gradient(132.64deg, #161919 2.37%, #373A3A 100.31%);
             border: 1px solid rgba(255, 255, 255, 0.2);
             border-radius: 0px 0px 10px 10px;
             transform: translateY(-300%);
+            transition: all .3s;
 
             &-active {
-                height: 40%;
                 justify-content: flex-end;
-                transition: all .1s;
+                transition: all .3s;
                 transform: translateY(0);
             }
 
@@ -174,8 +183,17 @@
                 width: 100%;
                 padding-top: 0px;
 
+                &-mobile {
+                    display: block;
+                }
+
+                &:first-child {
+                    background: linear-gradient(90.18deg, #30DBB8 -17.89%, #37A58F 24.63%, #398778 99.91%);
+                    margin-top: 112px;
+                }
+
                 &:last-child {
-                    margin-bottom: 20px;
+                    padding-bottom: 10px;
                 }
 
                 &:hover {
@@ -304,6 +322,12 @@
     .section__title {
         font-size: 30px;
         line-height: 110.6%;
+    }
+
+    .menu {
+        &__list {
+            width: 96%;
+        }
     }
 
     .top {
@@ -512,6 +536,13 @@
 }
 
 @media (max-width: 568px) {
+
+    .menu {
+        &__list {
+            width: 95%;
+        }
+    }
+
     .top {
         &__bottom {
             display: flex;
@@ -563,10 +594,15 @@
 }
 
 @media (max-width: 450px) {
+    .menu {
+        &__list {
+            width: 93%;
+        }
+    }
+
     .top__img-box {
         margin-left: -120px;
     }
-
 
     .footer {
         padding: 0px;

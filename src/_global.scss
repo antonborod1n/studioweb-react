@@ -12,7 +12,7 @@ body {
     color: rgba(255, 255, 255, 0.65);
     display: flex;
     flex-direction: column;
-    background-color: #1E1E1E;
+    background-color: #161617;
 }
 
 .container {
@@ -61,7 +61,7 @@ body {
 .swiper-button-next,
 .swiper-button-prev {
     position: absolute;
-    top: 40%;
+    top: 50%;
     z-index: 10;
     width: 70px;
     height: 70px;
@@ -71,6 +71,7 @@ body {
     box-shadow: 0px 0px 10px rgba(46, 236, 197, 0.1);
     border-radius: 50%;
     background-color: transparent;
+    transform: translateY(-50%);
 }
 
 .swiper-button-next::after,
@@ -178,11 +179,7 @@ body {
     border-radius: 50%;
 } */
 
-/* .fp-is-overflow .fp-overflow.fp-auto-height-responsive,
-.fp-is-overflow .fp-overflow.fp-auto-height,
-.fp-is-overflow>.fp-overflow {
-    overflow-y: visible !important;
-}
+/* 
 
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span,
@@ -195,6 +192,12 @@ body {
     margin: 0px !important;
     border-radius: 0% !important;
 } */
+
+.fp-is-overflow .fp-overflow.fp-auto-height-responsive,
+.fp-is-overflow .fp-overflow.fp-auto-height,
+.fp-is-overflow>.fp-overflow {
+    overflow-y: visible !important;
+}
 
 #fp-nav ul li a.active span,
 #fp-nav ul li:hover a.active span,
@@ -250,20 +253,24 @@ body {
     opacity: 0.04;
 }
 
-.footer__title {
-    &::after {
-        content: url(../public/images/decor-star-right.svg);
-        position: relative;
-        top: -55px;
-        left: 0;
-    }
+.footer__decor-start-left {
+    top: 65px;
+    left: 0;
+    transition: all 0.1s cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    animation: icon-flickers 1s linear infinite;
+}
 
-    &::before {
-        content: url(../public/images/decor-star-left.svg);
-        position: relative;
-        top: 65px;
-        left: 0;
-    }
+.footer__decor-start-right {
+    top: -53px;
+    right: 0;
+    transition: all 0.1s cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    animation: icon-flicker 1s linear infinite;
+}
+
+.footer__animate {
+    position: relative;
+    transition: all 0.1s cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    animation: icon-flicker 1s linear infinite;
 }
 
 .portfolio {
@@ -280,4 +287,14 @@ body {
     background-image: url(../public/images/decor2.png);
     background-size: cover;
     background-position: center 80%;
+}
+
+@keyframes radial-pulse {
+    0% {
+        box-shadow: 0px 0px 0px rgba(46, 236, 197, 0.15);
+    }
+
+    100% {
+        box-shadow: 0 0 0 20px rgba(207, 241, 207, 0);
+    }
 }

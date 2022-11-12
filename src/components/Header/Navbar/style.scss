@@ -13,6 +13,10 @@
         &-item {
             position: relative;
             padding-top: 65px;
+
+            &-mobile {
+                display: none;
+            }
         }
 
         &-link {

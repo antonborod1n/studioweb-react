@@ -21,9 +21,21 @@ const Navbar = () => {
                         Почему именно мы?
                     </a>
                 </li>
+
+                <li className="menu__list-item menu__list-item-mobile">
+                    <a className="menu__list-link" href="#cooperation">
+                        Портфолио
+                    </a>
+                </li>
                 <li className="menu__list-item">
                     <a className="menu__list-link" href="#footer">
                         Контакты
+                    </a>
+                </li>
+
+                <li className="menu__list-item menu__list-item-mobile">
+                    <a className="menu__list-link" href="#cooperation">
+                        Оставить заявку
                     </a>
                 </li>
             </ul>

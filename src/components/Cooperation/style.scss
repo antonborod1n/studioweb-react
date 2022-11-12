@@ -24,19 +24,20 @@
         position: relative;
         width: 400px;
         height: 400px;
-        background: linear-gradient(139.56deg, #303134 10.06%, #282828 53.72%, #282828 88%);
         box-shadow: 0px 0px 80px rgba(44, 44, 45, 0.35);
-        border-radius: 6px;
         padding: 44px 37px;
         overflow: hidden;
         transition: all .3s;
-        border: 1px solid;
-        border-image-source: linear-gradient(134.85deg, rgba(255, 255, 255, 0.2) 1.5%, rgba(255, 255, 255, 0) 100%);
         cursor: pointer;
+        background: linear-gradient(139.56deg, #303134 10.06%, #282828 53.72%, #282828 88%) padding-box,
+            linear-gradient(134.85deg, rgba(255, 255, 255, 0.2) 1.5%, rgba(255, 255, 255, 0) 100%) border-box;
+        border-radius: 6px;
+        border: 1px solid transparent;
 
         &:hover {
             transition: all .3s;
-            background: linear-gradient(139.56deg, #527791 10.06%, #325597 53.72%, #193895 88%);
+            background: linear-gradient(139.56deg, #527791 10.06%, #325597 53.72%, #193895 88%) padding-box,
+                linear-gradient(134.85deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 0%) border-box;
             box-shadow: 0px 0px 150px rgba(59, 95, 150, 0.35);
         }
 
@@ -139,8 +140,8 @@
             display: block;
             content: '';
             position: absolute;
-            top: -2px;
-            right: -1px;
+            top: 0px;
+            right: -2px;
             z-index: -1;
             width: 200px;
             height: 57px;
@@ -149,7 +150,7 @@
         }
 
         &:hover::after {
-            transform: translate(10px, 10px);
+            transform: translate(7px, 15px);
             transition: all .5s;
         }
     }

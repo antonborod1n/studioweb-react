@@ -32,14 +32,3 @@
 .logo__img {
     width: 96px;
 }
-
-
-@keyframes radial-pulse {
-    0% {
-        box-shadow: 0px 0px 0px rgba(46, 236, 197, 0.15);
-    }
-
-    100% {
-        box-shadow: 0 0 0 20px rgba(207, 241, 207, 0);
-    }
-}

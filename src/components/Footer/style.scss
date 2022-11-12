@@ -25,6 +25,7 @@
         border: 1px solid rgba($color: #2EECC5, $alpha: 0.1);
         border-radius: 50%;
         cursor: pointer;
+        transition: all 0.5s;
 
         &-big {
             width: 120px;
@@ -38,13 +39,13 @@
         &:hover {
             transform: scale(1.2);
             border: 1px solid rgba($color: #2EECC5, $alpha: 0.1);
-            transition: all .3s;
+            transition: all 0.5s;
         }
 
         &:hover .footer__social-link {
             transform: scale(1.1);
             background: radial-gradient(77.86% 77.86% at 49.29% 50.71%, #2EECC5 0%, #00644F 100%);
-            transition: all .3s;
+            transition: all 0.5s;
         }
     }
 

@@ -53,6 +53,7 @@
         padding-right: 25px;
         color: #FFFFFF;
         cursor: pointer;
+        transition: all .3s;
 
         &:hover {
             transition: all .3s;
@@ -73,10 +74,11 @@
         font-size: 19px;
         line-height: 25px;
         color: rgba(255, 255, 255, 0.4);
+        transition: all .3s;
 
         &:hover {
             transition: all .3s;
-            color: darken($color: rgba(255, 255, 255, 0.4), $amount: 10%);
+            color: #FFFFFF;
         }
     }
 
