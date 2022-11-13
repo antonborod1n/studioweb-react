@@ -27,12 +27,12 @@ const Price = () => {
                             /* autoHeight={true} */
                             centeredSlides={true}
                             breakpoints={{
-                                0: {
+                                /* 0: {
                                     slidesPerView: 1,
-                                    spaceBetween: 27
-                                },
+                                    spaceBetween: 27,
+                                }, */
 
-                                768: {
+                                650: {
                                     slidesPerView: 2,
                                     spaceBetween: 27
                                 },

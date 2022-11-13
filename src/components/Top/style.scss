@@ -15,7 +15,9 @@
 
     &__title {
         max-width: 870px;
-        font-family: 'Montserrat-ExtraBold';
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-style: normal;
         font-size: 65px;
         line-height: 62px;
         background: linear-gradient(91.2deg, #B5FEEF 10.31%, #2EECC5 165.09%);
@@ -26,7 +28,9 @@
         text-transform: uppercase;
 
         & span {
-            font-family: 'Montserrat-ExtraBold';
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 800;
+            font-style: normal;
             font-size: 45px;
             line-height: 62px;
         }
@@ -80,6 +84,10 @@
             transition: all .3s;
             color: #FFFFFF;
         }
+    }
+
+    .top__img-line {
+        height: 4px;
     }
 
     &__img-box {

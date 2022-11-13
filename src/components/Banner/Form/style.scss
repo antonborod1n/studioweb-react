@@ -2,7 +2,9 @@
     margin-top: 45px;
 
     &__title {
-        font-family: 'Montserrat-Bold';
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-style: normal;
         margin-bottom: 21px;
         font-size: 50px;
         line-height: 110.6%;
@@ -26,7 +28,9 @@
     }
 
     &__label {
-        font-family: 'Montserrat-Medium';
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-style: normal;
         display: block;
         font-size: 17px;
         line-height: 153.8%;

@@ -2,7 +2,6 @@
   "name": "web-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://antonborod1n.github.io/studioweb-react",
   "dependencies": {
     "@fullpage/react-fullpage": "^0.1.29",
     "@testing-library/jest-dom": "^5.16.5",
