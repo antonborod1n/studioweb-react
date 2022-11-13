@@ -34,7 +34,7 @@ const Navbar = () => {
                 </li>
 
                 <li className="menu__list-item menu__list-item-mobile">
-                    <a className="menu__list-link" href="#cooperation">
+                    <a className="menu__list-link" href="#banner">
                         Оставить заявку
                     </a>
                 </li>

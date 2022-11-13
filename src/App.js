@@ -7,6 +7,7 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import Price from "./components/Price/Price";
 import Banner from "./components/Banner/Banner";
 import Footer from "./components/Footer/Footer";
+import BottomBtn from "./components/Top/BottomBtn/BottomBtn";
 import './index.scss';
 
 const App = () => (
@@ -28,6 +29,7 @@ const App = () => (
             <Header />
             <Top />
           </section>
+          <BottomBtn />
           <Cooperation />
           <Portfolio />
           <Price />

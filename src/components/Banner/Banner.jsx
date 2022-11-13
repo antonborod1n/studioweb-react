@@ -5,7 +5,7 @@ const Banner = () => {
 
     return (
         <section className="banner" id="banner">
-            <div className="container">
+            <div className="container-footer">
                 <div className="banner__inner">
                     <Form />
                     <div className="banner__img-box">

@@ -39,6 +39,12 @@ body {
     margin: 0 auto;
 }
 
+.container-footer {
+    max-width: 1300px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
 .main {
     flex-grow: 1;
 }
@@ -118,8 +124,8 @@ body {
 /* FULLPAGE */
 
 #fp-nav.fp-left {
-    left: 163px !important;
-    top: 400px !important;
+    left: 200px !important;
+    top: 350px !important;
 }
 
 #fp-nav ul li {
@@ -132,66 +138,8 @@ body {
 
 .fp-watermark,
 .fp-watermark a {
-    display: none;
+    display: none !important;
 }
-
-/* #fp-nav ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-#fp-nav ul li {
-    display: flex !important;
-    width: 13px !important;
-    height: 13px !important;
-    margin-top: 15px !important;
-    position: relative !important;
-    background: rgba(32, 169, 141, 0.7) !important;
-    border-radius: 50%;
-    margin: 10px !important;
-}
-
-#fp-nav a.active ul li {
-    width: 23px !important;
-    height: 23px !important;
-} 
-
-#fp-nav ul li a.active,
-.fp-slidesNav ul li a.active {
-    border-radius: 50% !important;
-    width: 23px !important;
-    height: 23px !important;
-    background: radial-gradient(91.3% 91.3% at 50% 50%, #16ECC0 0%, rgba(32, 169, 141, 0) 100%) !important;
-}
-
-#fp-nav ul li a.active::before,
-.fp-slidesNav ul li a.active::before {
-    content: '';
-    position: absolute;
-    top: -10px;
-    left: -10px;
-    width: 33px;
-    height: 33px;
-    border: 1.5px solid #16E7BC;
-    filter: drop-shadow(0px 0px 13px rgba(46, 236, 197, 0.44));
-    border-radius: 50%;
-} */
-
-/* 
-
-#fp-nav ul li a span,
-.fp-slidesNav ul li a span,
-#fp-nav ul li a.active span,
-#fp-nav ul li:hover a.active span,
-.fp-slidesNav ul li a.active span,
-.fp-slidesNav ul li:hover a.active span {
-    width: 0 !important;
-    height: 0 !important;
-    margin: 0px !important;
-    border-radius: 0% !important;
-} */
 
 .fp-is-overflow .fp-overflow.fp-auto-height-responsive,
 .fp-is-overflow .fp-overflow.fp-auto-height,
@@ -203,54 +151,48 @@ body {
 #fp-nav ul li:hover a.active span,
 .fp-slidesNav ul li a.active span,
 .fp-slidesNav ul li:hover a.active span {
-    margin: -6px 0 0 -6px;
-    border-radius: 100%;
-    width: 23px;
-    height: 23px;
-    background: radial-gradient(91.3% 91.3% at 50% 50%, #16ECC0 0%, rgba(32, 169, 141, 0) 100%)
+    margin: -6px 0 0 -6px !important;
+    border-radius: 100% !important;
+    width: 23px !important;
+    height: 23px !important;
+    background: radial-gradient(91.3% 91.3% at 50% 50%, #16ECC0 0%, rgba(32, 169, 141, 0) 100%) !important;
 }
 
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span {
-    border-radius: 50%;
-    position: absolute;
-    z-index: 1;
-    border: 0;
-    left: 50%;
-    top: 50%;
-    margin: -2px 0 0 -2px;
-    transition: all .1s ease-in-out;
-    width: 13px;
-    height: 13px;
-    background: rgba(32, 169, 141, 0.7);
+    border-radius: 50% !important;
+    position: absolute !important;
+    z-index: 1 !important;
+    border: 0 !important;
+    left: 50% !important;
+    top: 50% !important;
+    margin: -2px 0 0 -2px !important;
+    transition: all .1s ease-in-out !important;
+    width: 13px !important;
+    height: 13px !important;
+    background: rgba(32, 169, 141, 0.7) !important;
 }
 
 #fp-nav ul li a.active::before,
 .fp-slidesNav ul li a.active::before {
-    content: '';
-    position: absolute;
-    top: -4px;
-    left: -4px;
-    width: 33px;
-    height: 33px;
-    border: 1.5px solid #16E7BC;
-    filter: drop-shadow(0px 0px 13px rgba(46, 236, 197, 0.44));
-    border-radius: 50%;
+    content: '' !important;
+    position: absolute !important;
+    top: -4px !important;
+    left: -4px !important;
+    width: 33px !important;
+    height: 33px !important;
+    border: 1.5px solid #16E7BC !important;
+    filter: drop-shadow(0px 0px 13px rgba(46, 236, 197, 0.44)) !important;
+    border-radius: 50% !important;
 }
 
 /* MAIN */
 
-.first-screen:before {
-    content: url(../public/images/bgg.jpg);
-    overflow: hidden;
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    filter: grayscale(1);
-    opacity: 0.04;
+.first-screen {
+    background-image: url(../public/images/bg1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
 }
 
 .footer__decor-start-left {

@@ -9,7 +9,7 @@ const Form = () => {
     const [price, setPrice] = useState('');
 
     return (
-        <form action="#" className="form">
+        <form className="form" action="#" >
             <h2 className="form__title">Оставь заявку</h2>
             <div className="form__box">
                 <p className="form__cookies">

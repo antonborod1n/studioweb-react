@@ -1,3 +1,9 @@
+@media (max-width: 1700px) {
+    #fp-nav {
+        display: none;
+    }
+}
+
 @media (max-width: 1600px) {
 
     .top__inner::before,
@@ -7,9 +13,6 @@
         display: none;
     }
 
-    #fp-nav {
-        display: none;
-    }
 
     .top {
         &__content {
@@ -32,21 +35,6 @@
             font-size: 17px;
             line-height: 26px;
             margin-bottom: 30px;
-        }
-    }
-
-    .banner {
-        &__inner {
-            flex-direction: column;
-            padding: 20px 0px;
-            height: 100%;
-        }
-
-        &__img-box {
-            order: 1;
-            align-self: center;
-            margin-top: 100px;
-            margin-bottom: -60px;
         }
     }
 
@@ -80,9 +68,56 @@
     .slick-next {
         right: 150px;
     }
+
+    .banner__massage-right {
+        top: 48%;
+        right: 48%;
+    }
+
 }
 
 @media (max-width: 1300px) {
+    .banner {
+
+        &__inner {
+            background: #161617;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        &__img-box {
+            order: 1;
+            align-self: center;
+            margin-top: 100px;
+            margin-bottom: -41px;
+
+            &::before {
+                content: url(../public/images/start-bg-mobile.png);
+                position: absolute;
+                bottom: 92px;
+                right: -34px;
+            }
+        }
+
+        &__massage-right {
+            top: 48%;
+            right: -140px;
+        }
+    }
+
+    .form {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        padding: 30px 15px;
+        margin-top: 0px;
+        background: linear-gradient(91.69deg, #313134 -11.81%, #222224 23.9%, #12473C 60.63%, #292929 110.44%);
+    }
+
+    .container-footer {
+        max-width: 1300px;
+        padding: 0px;
+        margin: 0 auto;
+    }
+
     .cooperation {
         &__inner {
             display: grid;
@@ -98,6 +133,7 @@
 
             &-info {
                 grid-area: 1 / 1 / 2 / 4;
+                padding: 68px 0px 0px;
             }
 
             &-second {
@@ -188,7 +224,6 @@
                 }
 
                 &:first-child {
-                    background: linear-gradient(90.18deg, #30DBB8 -17.89%, #37A58F 24.63%, #398778 99.91%);
                     margin-top: 112px;
                 }
 
@@ -269,11 +304,12 @@
 
         &__title {
             text-align: center;
-            margin-bottom: 21px;
+            margin-bottom: 24px;
             font-size: 37px;
             line-height: 110.6%;
         }
     }
+
 
     .footer {
         &__title {
@@ -318,6 +354,9 @@
 }
 
 @media (max-width: 768px) {
+    .container-top {
+        padding: 0px 0px 0px 15px;
+    }
 
     .section__title {
         font-size: 30px;
@@ -436,8 +475,7 @@
             }
 
             &-icon {
-                width: 158px;
-                height: 130px;
+                max-width: 125px;
             }
         }
     }
