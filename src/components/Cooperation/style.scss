@@ -51,7 +51,7 @@
         &-first {
             grid-area: 1 / 3 / 2 / 4;
 
-            &:hover svg.cooperation__item-icon {
+            &:hover svg.cooperation__item-icon-money {
                 path {
                     fill: #5577CD;
                 }
@@ -61,7 +61,7 @@
         &-second {
             grid-area: 2 / 1 / 3 / 2;
 
-            &:hover svg.cooperation__item-icon {
+            &:hover svg.cooperation__item-icon-clock {
                 path {
                     fill: #5577CD;
                 }
@@ -75,7 +75,7 @@
         &-third {
             grid-area: 2 / 2 / 3 / 3;
 
-            &:hover svg.cooperation__item-icon {
+            &:hover svg.cooperation__item-icon-user {
                 path {
                     fill: #5577CD;
                 }
@@ -89,7 +89,7 @@
         &-fourth {
             grid-area: 2 / 3 / 3 / 4;
 
-            &:hover svg.cooperation__item-icon {
+            &:hover svg.cooperation__item-icon-headphone {
                 path {
                     fill: #5577CD;
                 }
