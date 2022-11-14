@@ -77,7 +77,6 @@
 
 @media (max-width: 1300px) {
     .banner {
-
         &__inner {
             background: #161617;
             flex-direction: column;
@@ -290,6 +289,10 @@
         left: 75px;
     }
 
+    .price {
+        padding-bottom: 0px;
+    }
+
     .form {
         &__box {
             flex-direction: column;
@@ -313,7 +316,6 @@
             line-height: 110.6%;
         }
     }
-
 
     .footer {
         &__title {
@@ -342,6 +344,14 @@
         top: 135%;
     }
 
+    .swiper {
+        padding-bottom: 90px;
+    }
+
+    .swiper-wrapper {
+        height: 83%;
+    }
+
     .swiper-button-next,
     .swiper-button-prev {
         position: static;
@@ -349,11 +359,11 @@
     }
 
     .swiper-button-next {
-        transform: translate(50px, -7px);
+        transform: translate(50px, -70px);
     }
 
     .swiper-button-prev {
-        transform: translate(-50px, 63px);
+        transform: translate(-50px, 0px);
     }
 }
 
@@ -665,8 +675,8 @@
 
     ul.footer__social-list {
         padding: 10px 0px;
-        border-left: 1px solid rgba(255, 255, 255, 0.2);
-        border-right: 1px solid rgba(255, 255, 255, 0.2);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
     }
 
     .portfolio__title {
@@ -692,10 +702,6 @@
 
     .swiper-button-next {
         transform: translate(52px, -74px);
-    }
-
-    .price {
-        padding-bottom: 0px;
     }
 
     .price__slider-btn-arrow {
