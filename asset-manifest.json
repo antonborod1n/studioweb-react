@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.56b1f726.css",
-    "main.js": "/static/js/main.2366605d.js",
-    "static/media/decor2.png": "/static/media/decor2.4036ee564036962542a2.png",
-    "static/media/decor1.png": "/static/media/decor1.c239cfa39298f8d55093.png",
-    "static/media/bg1.png": "/static/media/bg1.c7817bf3e06672070c4e.png",
-    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/start-bg-mobile1.svg": "/static/media/start-bg-mobile1.ae4d975f428eae9112c0.svg",
-    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/index.html",
-    "static/media/slider-btn-left.svg": "/static/media/slider-btn-left.6013b0a93d56caa2f785.svg",
-    "main.56b1f726.css.map": "/static/css/main.56b1f726.css.map",
-    "main.2366605d.js.map": "/static/js/main.2366605d.js.map"
+    "main.css": "/studioweb-react/static/css/main.7ca5863b.css",
+    "main.js": "/studioweb-react/static/js/main.2366605d.js",
+    "static/media/decor2.png": "/studioweb-react/static/media/decor2.4036ee564036962542a2.png",
+    "static/media/decor1.png": "/studioweb-react/static/media/decor1.c239cfa39298f8d55093.png",
+    "static/media/bg1.png": "/studioweb-react/static/media/bg1.c7817bf3e06672070c4e.png",
+    "static/media/slick.svg": "/studioweb-react/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/studioweb-react/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/studioweb-react/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/start-bg-mobile1.svg": "/studioweb-react/static/media/start-bg-mobile1.ae4d975f428eae9112c0.svg",
+    "static/media/slick.woff": "/studioweb-react/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/studioweb-react/index.html",
+    "static/media/slider-btn-left.svg": "/studioweb-react/static/media/slider-btn-left.6013b0a93d56caa2f785.svg",
+    "main.7ca5863b.css.map": "/studioweb-react/static/css/main.7ca5863b.css.map",
+    "main.2366605d.js.map": "/studioweb-react/static/js/main.2366605d.js.map"
   },
   "entrypoints": [
-    "static/css/main.56b1f726.css",
+    "static/css/main.7ca5863b.css",
     "static/js/main.2366605d.js"
   ]
 }
